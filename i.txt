@@ -1,0 +1,40 @@
+public class Ala {
+    //Atributos
+    private Double envergadura;
+    private String color;
+    private String tipoMaterial;
+
+    //Métodos (comportamientos)
+
+    //Constructor
+    public Ala(Double envergadura, String color, String tipoMaterial) {
+        this.envergadura = envergadura;
+        this.color = color;
+        this.tipoMaterial = tipoMaterial;
+    }
+
+    public void flap(){
+        System.out.println("Está encendido el flap");
+    }
+
+    public String getColor() {
+        return color;
+    }
+}
+
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        //Crear un objeto o instancia de la clase Ala
+        Ala ala1 = new Ala(15.50,"blanco","material1");
+        System.out.println("El color del ala1 es: "+ala1.getColor());
+        ala1.flap();
+
+        //Crear un objeto o instancia de la clase Ala
+        Ala ala2 = new Ala(23.80,"verde","material2");
+        System.out.println("El color del ala1 es: "+ala2.getColor());
+
+    }
+}
