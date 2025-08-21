@@ -23,7 +23,7 @@ function sumar(a,b) {
 
 console.log(sumar(1,2))
 
-//declara
+//declarada
 let restar = function(a,b){
     return a-b
 }
