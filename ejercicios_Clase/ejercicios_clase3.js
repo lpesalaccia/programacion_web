@@ -148,7 +148,7 @@ function l12_verificarContra(contra) {
     }
     if (contra.length >= 8 && tieneNumero && tieneMayuscula) {
         return "Contraseña valida";       // mas verificado
-    }   
+    } }
     
 
 console.log(l12_verificarContra("contra"));
