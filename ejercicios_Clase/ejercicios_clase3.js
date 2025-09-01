@@ -152,3 +152,8 @@ function l12_verificarContra(contra) {
     
 
 console.log(l12_verificarContra("contra"));
+
+
+
+
+/*se cambiaron algunos ejs: completar y terminar!! */
